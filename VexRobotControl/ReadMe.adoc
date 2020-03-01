@@ -1,0 +1,32 @@
+:Author: kodos
+:Email: kodosexe@gmail.com
+:Date: 1/03/2020
+:Revision: 1.0
+:License: Public Domain
+
+= Project: Vex Robotic Motor Control
+
+Control the motors of your Vex Robot with an Arduino. Just plug in the signal wire (White) of your Vex Motor Controller into the given port (3/5/6 by default) and control them using the analog pins.
+
+== Step 1: Installation
+Upload to your arduino and plug in the wires. DO NOT RUN THE MOTORS WITH POWER FROM THE ARDUINO; IT WILL BREAK IT.
+
+=== Folder structure
+
+....
+ VexRobotControl            => Arduino sketch folder
+  ├── VexRobotControl.ino   => main Arduino file
+  └── ReadMe.adoc         => this file
+....
+
+=== License
+This project is released under a Creative Commons License.
+
+=== Contributing
+To contribute to this project please contact kodos https://id.arduino.cc/kodos
+
+
+=== Help
+This document is written in the _AsciiDoc_ format, a markup language to describe documents.
+If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
+or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
